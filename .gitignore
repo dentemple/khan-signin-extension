@@ -1,0 +1,13 @@
+# Node-specific
+node_modules/
+
+# Environment-specific
+.env
+
+# Project-specific
+extension/config.json
+artifacts/
+
+# User-specific
+notes.md
+.vscode/settings.json

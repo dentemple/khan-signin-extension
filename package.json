@@ -1,0 +1,21 @@
+{
+  "name": "khan-signin-extension",
+  "version": "0.0.1",
+  "description": "A browser extension for onboarding a user onto Khan Academy",
+  "license": "MIT",
+  "author": "Denny S. Temple <denny.temple@gmail.com>",
+  "engines": {
+    "node": ">=26 <27"
+  },
+  "type": "module",
+  "main": "signup.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  },
+  "dependencies": {
+    "playwright": "^1.65.0"
+  }
+}
